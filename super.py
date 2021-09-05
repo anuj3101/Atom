@@ -24,4 +24,4 @@ sales_store=dfs['Salesstore']
 #sales_store.isnull().values.any() ########Check NUlls
 #sales_store.isnull().isnull().sum() ########Check NUlls by each column
 
-sales_store.info()
+sales_store.head()
